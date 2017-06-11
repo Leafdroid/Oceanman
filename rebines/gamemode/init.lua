@@ -113,14 +113,6 @@ hook.Add( "KeyPress", "jumpsound", function( ply, key )
 	
 	local roundpos = math.Round(ply:GetPos().y)
 	
-	if roundpos == 80 then
-	ply:ChatPrint("A Lane")
-	elseif roundpos > -2 and roundpos < 2 then
-	ply:ChatPrint("B Lane")
-	elseif roundpos == -80 then
-	ply:ChatPrint("C Lane")
-	end
-	
 	--if ply:GetVelocity().y > 0 then return end
 	
 		if ( key == IN_BACK ) and ply:IsOnGround() then

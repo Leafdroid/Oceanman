@@ -84,7 +84,7 @@ function GM:CalcView( ply, origin, angles, fov )
 		view.angles = Angle( 0, 90, 0 )
 		view.fov = 70
 	else 
-		view.origin = ply:GetPos() + Vector( 0, -450, 64 )
+		view.origin = ply:GetPos() + Vector( 0, -500, 64 )
 		view.angles = Angle( 0, 90, 0 )
 		view.fov = 60
 	end
