@@ -1,0 +1,8 @@
+"oceanman"
+{
+	"base"		"base"
+	"title"		"Oceanman"
+	"maps"		"om_*"
+	"menusystem"	"1"
+}
+// Created by Leafdroid [76561198004949954]
